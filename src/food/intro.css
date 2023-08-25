@@ -1,0 +1,64 @@
+.intro{
+    width: 100%;
+    margin: 20px;
+}
+.intro-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    width: 300px;
+    margin-left: 10px;
+}
+.content h2{
+    margin-left: -90px;
+}
+#logo{
+    width: 350px;
+    height: 300px;
+}
+.content-image{
+    margin-left: 30px;
+}
+.btn{
+    box-sizing: border-box;
+    background-color: rgb(63, 14, 14);
+    color: #fff;
+    margin-top: 10px;
+}
+.cardss{
+    
+    background-color: rgb(63, 14, 14);
+}
+.list{
+    display: flex;
+    
+    justify-content: center;
+}
+
+@media screen and (max-width:960px) {
+    .intro{
+        width: 100%;
+    }
+    .intro-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .list{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+
+
+    
+}
